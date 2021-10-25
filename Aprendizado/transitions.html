@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<html>
+    <head>
+        <title> Transições CSS </title>
+        <meta charset="UTF-8">
+        <meta name ="author" content="Henrique">
+        <meta name ="description" content="Lista de documentos">
+        <meta name = "keywords" content = "html5, tecnologia, site">
+
+    <style>
+        div{
+            font-family: sans-serif;
+            font-size:15px;
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+        }
+        div:hover{
+            font-size:80px;
+            width:200px;
+            transition-property: all;
+            transition-duration: .5s, .4s;
+            transition-timing-function: cubic-bezier(.86,-0.4,.19,1.55);
+            transition-delay: .2s, .4s;
+            
+                }
+        div:hover{
+            width: 400px;
+            height: 400px;
+        }
+    </style>    
+
+    </head>
+             <body>
+               <div>
+                  Home
+               </div>
+             </body>
+
+</html>
