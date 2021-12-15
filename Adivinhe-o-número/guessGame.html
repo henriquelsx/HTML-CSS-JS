@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+<html>
+    <head>
+        <title>  </title>
+        <meta charset="UTF-8">
+        <meta name ="author" content="Henrique">
+        <meta name ="description" content="Lista de documentos">
+        <meta name = "keywords" content = "html5, tecnologia, site">
+        <style>
+            body{
+                font-size: 33px;
+                font-family:sans-serif;
+                margin: 0;
+
+               }
+               button{
+                font-size: 26px;  
+               }
+               input{
+                font-size: 33px;  
+               }
+        </style>
+    </head>
+             <body>
+                <p id ="title">Eu pensei em um número, tenta adivinhar !</p>
+                <span id="guess">Seu palpite: </span><input type="text" id="input" value="">
+                <p id="clue"></p>
+
+                <button id = "btn" onclick="makeGuess ()">TENTAR</button>
+                <button id = "reload" onclick="window.location.reload();" style="visibility: hidden;"> JOGAR NOVAMENTE</button>
+
+                <script type="text/javascript" src="guessGame.js"></script>
+             </body>
+
+</html>
